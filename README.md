@@ -1,6 +1,13 @@
 
 JS implementation of the Axolotl protocol
 
+#### NOTES
+
+For details of the protocol implementation see:
+
+https://github.com/trevp/axolotl/wiki <br>
+https://github.com/WhisperSystems/TextSecure/wiki/ProtocolV2#axolotl-implementation
+
 #### LICENSE
 
 This software is licensed under the MIT License.
