@@ -1,12 +1,5 @@
 
-var readline = require("readline");
-
-var rl = readline.createInterface({
-  input:  process.stdin,
-  output: process.stdout
-});
-
-var axolotl = require("../proto.js").proto;
+var axolotl = require("../lib/axolotl.js").axolotl;
 
 var alice = new axolotl("alice")
 var bob   = new axolotl("bob")
@@ -58,7 +51,15 @@ sendBob("Cool!");
 sendBob("I'm fine too, Bob");
 replayBob();
 
+
 // Make a prompt
+//var readline = require("readline");
+//
+//var rl = readline.createInterface({
+//  input:  process.stdin,
+//  output: process.stdout
+//});
+
 //rl.prompt();
 //rl.on('line', function (l) {
 //  if (l === 'exit')
