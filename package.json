@@ -1,0 +1,27 @@
+{
+  "name": "axolotl.js",
+  "version": "0.0.1",
+  "description": "JS Axolotl protocol implementation",
+  "main": "lib/axolotl.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexeykudinkin/axolotl.js"
+  },
+  "keywords": [
+    "Axolotl",
+    "Crypto",
+    "EC"
+  ],
+  "author": "Alexey Kudinkin <alexey.kudinkin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexeykudinkin/axolotl.js/issues"
+  },
+  "homepage": "https://github.com/alexeykudinkin/axolotl.js",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
