@@ -23,5 +23,9 @@
   "homepage": "https://github.com/alexeykudinkin/axolotl.js",
   "devDependencies": {
     "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "elliptic": "^3.0.2",
+    "brorand":  "^1.0.1"
   }
 }
